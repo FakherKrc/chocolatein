@@ -2,10 +2,10 @@
 
 class PdoChoc {
 
-    private static $serveur = 'mysql:host=localhost';
-    private static $bdd = 'dbname=chocolatein';
-    private static $user = 'userChoc';
-    private static $mdp = 'p@ssCh0c';
+    private static $serveur = 'mysql:host=mariadbchoco.mariadb.database.azure.com';
+    private static $bdd = 'dbname=chocolatein1234';
+    private static $user = 'userApp';
+    private static $mdp = 'Sio1234*';
     private static $monPdo;
     private static $monPdoChoc = null;
 
