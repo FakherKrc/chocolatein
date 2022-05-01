@@ -3,9 +3,9 @@
 class PdoChoc {
 
     private static $serveur = 'mysql:host=mariadbchoco12.mariadb.database.azure.com';
-    private static $bdd = 'dbname=chocolatein1234';
-    private static $user = 'userApp3';
-    private static $mdp = 'Sio1234*';
+    private static $bdd = 'dbname=chocolatein';
+    private static $user = 'adminmariadb@mariadbchoco12';
+    private static $mdp = 'Smotdepase*';
     private static $monPdo;
     private static $monPdoChoc = null;
 
